@@ -44,3 +44,11 @@ h1 {
 #next {
   right: 6px;
 }
+/* Fading animation */
+.fade {
+  animation: fade 800ms ease-in;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
